@@ -1,0 +1,127 @@
+/* Color de fondo */
+body {
+    background-color: #689b5a; /* Cambia #e0e0e0 al color que desees */
+    font-family: Arial, sans-serif;
+    margin: 1;
+    padding: 0;
+}
+
+/* Estilos para la barra de navegación */
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 2;
+    background-color: #89bc7a; /* Color de fondo de la barra */
+    overflow: hidden;
+}
+li.navitem {
+    float: left;
+}
+li.navitem a {
+    display: block;
+    color: white; /* Color del texto de los enlaces */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li.navitem a:hover {
+    background-color: #ddd; /* Color de fondo al pasar el mouse por encima */
+    color: black; /* Color del texto al pasar el mouse por encima */
+}
+
+/* barra negra */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1px;
+}
+
+/* Pie de pagina*/
+footer {
+    text-align: center;
+    background-color: #7fbf6d;
+    color: white;
+    padding: 0px;
+    position:relative ;
+    bottom: 0;
+    width: 100%;
+}
+footer p{
+    font-size: 16px;
+    color: #555;
+    margin: 5px 0;
+}
+a {
+    color: white; /* Cambia el color de todos los enlaces a blanco */
+    text-decoration: none; /* Quita la subraya predeterminada en los enlaces */
+}
+
+
+h1 {
+    font-size: 32px;
+}
+.section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-top: 20px;
+}
+h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+
+.catalog {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.product {
+    width: 300px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+h2 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+.price {
+    font-size: 20px;
+    color: #333;
+    margin-top: 10px;
+}
+.description {
+    font-size: 16px;
+    color: #666;
+    margin-top: 10px;
+}
+/* Estilos para el botón de compra */
+.buy-button {
+    background-color: #ff5500;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block; /* Hacer que el botón sea un elemento en bloque */
+    margin: 0 auto; /* Centrar horizontalmente el botón */
+}
+.buy-button:hover {
+    background-color: #e24400;
+}
+/* Resto de los estilos (mismos estilos que antes) */
+/* ... */

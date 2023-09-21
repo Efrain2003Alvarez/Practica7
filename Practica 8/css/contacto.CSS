@@ -1,0 +1,114 @@
+/* Color de fondo */
+body {
+    background-color: #689b5a; /* Cambia #e0e0e0 al color que desees */
+    font-family: Arial, sans-serif;
+    margin: 1;
+    padding: 0;
+}
+
+/* Estilos para la barra de navegación */
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 2;
+    background-color: #89bc7a; /* Color de fondo de la barra */
+    overflow: hidden;
+}
+li.navitem {
+    float: left;
+}
+li.navitem a {
+    display: block;
+    color: white; /* Color del texto de los enlaces */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li.navitem a:hover {
+    background-color: #ddd; /* Color de fondo al pasar el mouse por encima */
+    color: black; /* Color del texto al pasar el mouse por encima */
+}
+
+/* barra negra */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+}
+
+/* Pie de pagina*/
+footer {
+    text-align: center;
+    background-color: #7fbf6d;
+    color: white;
+    padding: 0px;
+    position:relative ;
+    bottom: 0;
+    width: 100%;
+}
+footer p{
+    font-size: 16px;
+    color: #555;
+    margin: 5px 0;
+}
+a {
+    color: white; /* Cambia el color de todos los enlaces a blanco */
+    text-decoration: none; /* Quita la subraya predeterminada en los enlaces */
+}
+
+/* Ajustes del cuerpo de la pagina*/
+h1 {
+    font-size: 36px;
+}
+
+h2{
+    text-align: center;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.column {
+    flex-basis: 45%; /* Ancho de las columnas */
+    padding: 10px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para la lista de botones de redes sociales */
+.social-list {
+    list-style: none;
+    padding: 0;
+}
+
+.social-list li {
+    margin-bottom: 10px;
+}
+
+.social-list a {
+    display: inline-block;
+    color: #000000;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* Estilos para las imágenes dentro de los botones */
+.social-list img {
+    max-width: 40px; /* Ajusta el tamaño de la imagen según tu diseño */
+    vertical-align: middle;
+    margin-right: 5px;
+}
